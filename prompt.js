@@ -18,3 +18,12 @@ console.log(one1 % one2);
 
 const random = Math.floor(Math.random() * 35) + 1;
 alert("The random number is ${random}");
+
+/*task 5 */
+
+console.log(math.ceil (114/32) );
+
+/*task 6 */
+
+console.log(math.floor (114/32) );
+console.log(math.floor (144/32) );
