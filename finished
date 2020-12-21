@@ -1,0 +1,36 @@
+/*task 1 */
+const one = prompt("pick a number please")
+const two = prompt("pick a another number please")
+
+/*task 2 */
+const one1 = parseInt(one);
+const two2 = parseInt(two);
+
+/*task 3*/
+console.log(one1 - one2);
+console.log(one1 + one2);
+console.log(one1 / one2);
+console.log(one1 * one2);
+console.log(one1 ** one2);
+console.log(one1 % one2);
+
+/* task 4 */
+
+const random = Math.floor(Math.random() * 35) + 1;
+alert("The random number is ${random}");
+
+/*task 5 */
+
+console.log(math.ceil (114/32) );
+
+/*task 6 */
+
+console.log(math.floor (114/32) );
+console.log(math.floor (144/32) );
+
+const three = prompt("give me  a number")
+const four = prompt("you chose ${three}. Give another number")
+const three3 = parseInt(numberThree);
+const four4 = parseInt(numberFour);
+const answer = Math.pow(numberThree3, numberFour4)
+alert("the answer is ${answer}. ${three3} to the power of ${four4}");
